@@ -47,9 +47,21 @@ ul{
 /* ---- Main Css ---- */
 /*# sourceMappingURL=style.css.map */
 
+.phuc-test{
+    width: 100%;
+    display: flex;
+}
+
+.constant{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+
 .navbar {
     background-color: #FFFFFF !important;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1) !important;
 }
 
 .navbar-nav{
@@ -121,14 +133,13 @@ ul{
     background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
 }
 .nav-item{
-    margin: 8px 24px !important;
     color: #808080;
-    /*align-self: center;*/
-    /*size: 18px;*/
-    /*font-style: normal;*/
-    /*font-weight: 400;*/
-    /*line-height: 21px;*/
 }
+.navbar-nav > li{
+    margin-left:17px;
+    margin-right:17px;
+}
+
 .border-5{
     border-radius: 5em !important;
 }
@@ -225,10 +236,6 @@ ul{
     .content-container{
         max-width: 80%;
     }
-    .text-big{
-        font-size: 18px !important;
-        line-height: 21px !important;
-    }
     .language-container {
         width: 14% !important;
     }
@@ -241,12 +248,17 @@ ul{
     }
 }
 @media (max-width: 992px){
+    .phuc-test{
+        width: auto !important;
+        display: flex;
+
+    }
+    .navbar-toggle.navbar-left {
+        float: left;
+        margin-left: 10px;
+      }
     .content-container{
         max-width: 80%;
-    }
-    .text-big{
-        font-size: 18px !important;
-        line-height: 21px !important;
     }
     .text-medium{
         font-size: 16px !important;
@@ -272,9 +284,13 @@ ul{
     }
 }
 @media (max-width: 768px){
-    /*.content-container{*/
-    /*    max-width: 90%;*/
-    /*}*/
+    .actions{
+        display: none;
+        opacity: 0;
+    }
+    .phuc-test{
+        width: auto !important;
+    }
     .upload-img{
         width: 64px !important;
         height: 64px !important;
@@ -286,10 +302,6 @@ ul{
     .find-address{
         font-size: 12px;
         line-height: 14px;
-    }
-    .text-big{
-        font-size: 16px !important;
-        line-height: 19px !important;
     }
     .text-medium{
         font-size: 14px !important;
@@ -342,10 +354,6 @@ ul{
     }
     .small{
         font-size: 5px;
-    }
-    .text-big{
-        font-size: 14px !important;
-        line-height: 16px !important;
     }
     .text-medium{
         font-size: 12px !important;
