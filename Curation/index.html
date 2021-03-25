@@ -16,10 +16,515 @@
 
   <!-- Link css file -->
   <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
   <title>RoundUp</title>
 </head>
 
 <body>
+
+  <!--header collapse content-->
+  <div class="header-collapse">
+    <div class="collapse navbar-collapse home-collapse" id="navbarResponsive">
+      <div class="row col disable-collapse">
+        <p class="">메뉴</p>
+        <button class="navbar-toggler col text-right mb-2" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+      <hr style="margin-top: 57px">
+      <div class="row col col-sm m-auto">
+        <p class="btn border col margin-l-2 background-white text-big">로그인</p>
+        <p class="btn btn-submit col margin-l-2 background-gradient text-big">가입하기</p>
+      </div>
+      <hr>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">스타트업</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">투자사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">큐레이션</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">Global</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">미디어</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">커뮤니티</a>
+        </li>
+      </ul>
+      <hr>
+      <div class="dropdown language-container">
+        <button class="dropdown-toggle bg-light border rounded language-box" href="#" role="button"
+          id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="./assets/images/korea-flag.png" width="26px" height="20ps">
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Korea</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="phucccccccccc">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-header">
+            <div class="container-fluid">
+              <a class="navbar-branch col-xl-3 col-md-3 col-sm-3 col-3" href="#">
+                <img class="nav-img" src="./assets/images/menu-bar-logo.png">
+              </a>
+              <div class="phuc-test">
+
+                <div class="collapse navbar-collapse">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">스타트업</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">투자사</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">큐레이션</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">Global</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">미디어</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">커뮤니티</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="actions">
+                  <ul style="list-style: none" class="constant">
+                    <li>
+                      <a class="nav-link" href="#">
+                        <p class="form-label">로그인</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#">
+                        <span>가입하기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown border rounded">
+                        <button class="dropdown-toggle bg-light border rounded language-box" href="#" role="button"
+                          id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./assets/images/korea-flag.png" width="26px" height="20ps">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                          <a class="dropdown-item" href="#">English</a>
+                          <a class="dropdown-item" href="#">Korea</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3 main-content">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="my-3 ml-2">큐레이션</h3>
+      </div>
+      <div class="col-md-12">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/Startup.png">
+              <p class="img-alt">이미지 제목</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle dropdown-types" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>국내</span></button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle dropdown-types" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>지역</span></button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle dropdown-types" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>지원형태</span></button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-center mb-3">
+            <div class="input-group-prepend mr-3">
+              <button class="btn btn-outline-secondary dropdown-toggle dropdown-types" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>지원대상</span></button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <img src="./assets/images/Vector.png" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item grid-container">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      사업 분야
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3 d-flex mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label request-checkbox" for="inlineRadio1">조회순</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label request-checkbox" for="inlineRadio2">조회순</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <label class="form-check-label request-checkbox" for="inlineRadio3">조회순</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <table class="table table-wrapper">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">큐레이션 명</th>
+              <th scope="col">지역</th>
+              <th scope="col">지원형태</th>
+              <th scope="col">지원대상</th>
+              <th scope="col">분야</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>110</td>
+              <td>큐레이션 명</td>
+              <td>글로벌</td>
+              <td>정부자금</td>
+              <td>얘비 창업자</td>
+              <td>SW</td>
+
+
+            </tr>
+            <tr>
+              <td>109</td>
+              <td>큐레이션 명</td>
+              <td>전국</td>
+              <td>투자유치</td>
+              <td>기창업자</td>
+              <td>첨단 기술</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>큐레이션 명</td>
+              <td>서울</td>
+              <td>사업지원 외 2</td>
+              <td>벤처기업</td>
+              <td>부품</td>
+            </tr>
+            <tr>
+              <td>107</td>
+              <td>큐레이션 명</td>
+              <td>부산</td>
+              <td>교육</td>
+              <td>기술혁신기업 외 1</td>
+              <td>의료/바이오</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>큐레이션 명</td>
+              <td>인천</td>
+              <td>공간/시설</td>
+              <td>친환경기업</td>
+              <td>환경</td>
+            </tr>
+            <tr>
+              <td>105</td>
+              <td>큐레이션 명</td>
+              <td>대구</td>
+              <td>해외진출</td>
+              <td>사회적기업</td>
+              <td>라이프스타일 외 1</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>큐레이션 명</td>
+              <td>대전</td>
+              <td>기타</td>
+              <td>연구소</td>
+              <td>쇼핑/커머스</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>큐레이션 명</td>
+              <td>세종</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>음식</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>큐레이션 명</td>
+              <td>광주</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>유아</td>
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>큐레이션 명</td>
+              <td>경기</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>법률</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-md-12 d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination d-flex align-items-center">
+            <li class="page-item">
+              <a class="page-link fas fa-chevron-left" aria-label="chevron-left">
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link">2</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">4</a></li>
+            <li class="page-item"><a class="page-link">5</a></li>
+            <li class="page-item"><a class="page-link">6</a></li>
+            <li class="page-item"><a class="page-link">7</a></li>
+            <li class="page-item"><a class="page-link">8</a></li>
+            <li class="page-item"><a class="page-link">9</a></li>
+            <li class="page-item"><a class="page-link">10</a></li>
+            <li class="page-item">
+              <a class="page-link  fas fa-chevron-right" aria-label="chevron-left">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
 
 
 
@@ -39,6 +544,52 @@
     </script>
   <!-- Custom Js -->
   <script src="./assets/js/index.js"></script>
+
+  <!-- Swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var appendNumber = 4;
+    var prependNumber = 1;
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+      ]);
+    });
+    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+    });
+    document.querySelector('.append-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+    });
+    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+      ]);
+    });
+  </script>
 </body>
 
 </html>
