@@ -16,10 +16,351 @@
 
   <!-- Link css file -->
   <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
   <title>RoundUp</title>
 </head>
 
 <body>
+
+  <!--header collapse content-->
+  <div class="header-collapse">
+    <div class="collapse navbar-collapse home-collapse" id="navbarResponsive">
+      <div class="row col disable-collapse">
+        <p class="">메뉴</p>
+        <button class="navbar-toggler col text-right mb-2" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+      <hr style="margin-top: 57px">
+      <div class="row col col-sm m-auto">
+        <p class="btn border col margin-l-2 background-white text-big">로그인</p>
+        <p class="btn btn-submit col margin-l-2 background-gradient text-big">가입하기</p>
+      </div>
+      <hr>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">스타트업</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">투자사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">큐레이션</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">Global</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">미디어</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-big" href="#">커뮤니티</a>
+        </li>
+      </ul>
+      <hr>
+      <div class="dropdown language-container">
+        <button class="dropdown-toggle bg-light border rounded language-box" href="#" role="button"
+          id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="./assets/images/korea-flag.png" width="26px" height="20ps">
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Korea</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="phucccccccccc">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-header">
+            <div class="container-fluid">
+              <a class="navbar-branch col-xl-3 col-md-3 col-sm-3 col-3" href="#">
+                <img class="nav-img" src="./assets/images/menu-bar-logo.png">
+              </a>
+              <div class="phuc-test">
+
+                <div class="collapse navbar-collapse">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">스타트업</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">투자사</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">큐레이션</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">Global</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">미디어</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-big" href="#">커뮤니티</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="actions">
+                  <ul style="list-style: none" class="constant">
+                    <li>
+                      <a class="nav-link" href="#">
+                        <p class="form-label">로그인</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#">
+                        <span>가입하기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown border rounded">
+                        <button class="dropdown-toggle bg-light border rounded language-box" href="#" role="button"
+                          id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./assets/images/korea-flag.png" width="26px" height="20ps">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                          <a class="dropdown-item" href="#">English</a>
+                          <a class="dropdown-item" href="#">Korea</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="my-5">자유 게시판</h3>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 search-options">
+        <div class="input-group-prepend mr-3">
+          <button
+            class="btn btn-outline-secondary dropdown-toggle dropdown-types d-flex justify-content-between align-items-center"
+            type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>제목</span></button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </div>
+        <input type="text" placeholder="Search" class="form-control" name="name" id="name">
+
+      </div>
+
+      <div class="col-md-12">
+        <table class="table table-wrapper">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">큐레이션 명</th>
+              <th scope="col">지역</th>
+              <th scope="col">지원형태</th>
+              <th scope="col">지원대상</th>
+              <th scope="col">분야</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>110</td>
+              <td>큐레이션 명</td>
+              <td>글로벌</td>
+              <td>정부자금</td>
+              <td>얘비 창업자</td>
+              <td>SW</td>
+
+
+            </tr>
+            <tr>
+              <td>109</td>
+              <td>큐레이션 명</td>
+              <td>전국</td>
+              <td>투자유치</td>
+              <td>기창업자</td>
+              <td>첨단 기술</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>큐레이션 명</td>
+              <td>서울</td>
+              <td>사업지원 외 2</td>
+              <td>벤처기업</td>
+              <td>부품</td>
+            </tr>
+            <tr>
+              <td>107</td>
+              <td>큐레이션 명</td>
+              <td>부산</td>
+              <td>교육</td>
+              <td>기술혁신기업 외 1</td>
+              <td>의료/바이오</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>큐레이션 명</td>
+              <td>인천</td>
+              <td>공간/시설</td>
+              <td>친환경기업</td>
+              <td>환경</td>
+            </tr>
+            <tr>
+              <td>105</td>
+              <td>큐레이션 명</td>
+              <td>대구</td>
+              <td>해외진출</td>
+              <td>사회적기업</td>
+              <td>라이프스타일 외 1</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>큐레이션 명</td>
+              <td>대전</td>
+              <td>기타</td>
+              <td>연구소</td>
+              <td>쇼핑/커머스</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>큐레이션 명</td>
+              <td>세종</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>음식</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>큐레이션 명</td>
+              <td>광주</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>유아</td>
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>큐레이션 명</td>
+              <td>경기</td>
+              <td>기타</td>
+              <td>기타</td>
+              <td>법률</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-12 d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination d-flex align-items-center">
+            <li class="page-item">
+              <a class="page-link fas fa-chevron-left" aria-label="chevron-left">
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link">2</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">4</a></li>
+            <li class="page-item"><a class="page-link">5</a></li>
+            <li class="page-item"><a class="page-link">6</a></li>
+            <li class="page-item"><a class="page-link">7</a></li>
+            <li class="page-item"><a class="page-link">8</a></li>
+            <li class="page-item"><a class="page-link">9</a></li>
+            <li class="page-item"><a class="page-link">10</a></li>
+            <li class="page-item">
+              <a class="page-link  fas fa-chevron-right" aria-label="chevron-left">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <div>
+            글쓰기
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="container-xl p-xl-4">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="row style-footer">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-7">
+              <div class="desc">
+                <div style="width: 141px; height: 32px;">
+                  <img src="./assets/images/Logo-footer.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eveniet quas laboriosam. Eligendi ad
+                  aspernatur maiores officia excepturi nihil expedita?</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+              <div class="about-us">
+                <div class="company text-uppercase">
+                  <h1 class="my-2">company</h1>
+                  <p class="my-2">블로그</p>
+                  <p class="my-2">언론보도</p>
+                  <p class="my-2">마켓</p>
+                </div>
+                <div class="policies text-uppercase">
+                  <h1 class="my-2">policies</h1>
+                  <p class="my-2">이용약관</p>
+                  <p class="my-2">개인정보처리방침</p>
+                </div>
+                <div class="support text-uppercase">
+                  <h1 class="my-2">support</h1>
+                  <p class="my-2">faq</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="line my-4"></div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="info">
+            <p>상호 : (주)탈잉 | 주소 : 서울특별시 강남구 역삼동 621 -19 | 사업자등록번호 : 767-88-00630 | 대표자명 : 김윤환</p>
+            <p class="my-2">통신판매업 신고번호 : 제 2017-서울강남-02964</p>
+            <p>Copyright ⓒ2020 Round Up inc, ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -40,6 +381,7 @@
     </script>
   <!-- Custom Js -->
   <script src="./assets/js/index.js"></script>
+
 </body>
 
 </html>
